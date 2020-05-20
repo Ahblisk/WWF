@@ -1,25 +1,45 @@
-h1{
-    color:black;
-    text-align:center;
+.topnav {
+  background-color: #07689F;
+  overflow: hidden;
 }
-ol, li, p{
-  color:black;
-  text-align:center;
-  font-style: times;
+
+.topnav a {
+  float: left;
+  color: #D4D6C8;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  font-size: 17px;
 }
-html{
-  background-color: lightgrey
+
+.topnav a:hover {
+  background-color: #E9E9E5;
+  color: #52524E;
 }
-input {
-  text-align: left;
-  font-size: 14px;
+
+.topnav .active {
+  background-color: #FF7E67;
+  color: #FAFAFA;
 }
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+
+h1 {
+  font-family: "Lucida Console";
+}
+
+p {
+  font-family: "Lucida Console";
+}
+
+ol {
+  font-family: "Lucida Console";
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
 }
