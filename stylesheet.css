@@ -7,7 +7,7 @@ ol, li, p{
   text-align:center;
   font-style: times;
 }
-html {
+head {
   background-color: lightgrey
 }
 input {
