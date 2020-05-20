@@ -1,0 +1,16 @@
+h1{
+    color:black;
+    text-align:center;
+}
+ol, li, p{
+  color:black;
+  text-align:center;
+  font-style: times;
+}
+html {
+  background-color: lightgrey
+}
+input {
+  text-align: left;
+  font-size: 14px;
+}
