@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+.initiate{
+  background-color: lightseagreen;
+}
+
 .topnav a {
   float: left;
   color: #D4D6C8;
@@ -22,8 +26,16 @@
   color: #FAFAFA;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 h1 {
   font-family: "Lucida Console";
+  text-align:center;
 }
 
 p {
@@ -42,4 +54,8 @@ ol {
 .column {
   float: left;
   width: 50%;
+}
+
+img {
+  display: inline;
 }
