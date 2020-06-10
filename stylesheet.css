@@ -16,11 +16,11 @@ button.center {
 }
 
 .column #logo {
-  display: block;
+  display: none;
 }
 
 .column #title {
-  display: block;
+  display: none;
 }
 
 .topnav a {
@@ -46,7 +46,7 @@ button.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 p.center {
@@ -97,7 +97,13 @@ div.polaroid {
 
 img {
   width: 100%
+}
 
+img.showing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 div.container {
